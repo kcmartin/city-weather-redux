@@ -13,6 +13,7 @@ export function fetchWeather(city) {
 
   return {
     type: FETCH_WEATHER,
+    // assign Promise to payload key
     payload: request
   };
 }
