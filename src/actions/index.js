@@ -9,6 +9,7 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 
 export function fetchWeather(city) {
   const url = `${ROOT_URL}&q=${city},us&units=imperial`;
+  // axios used to make ajax request
   const request = axios.get(url);
 
   return {
