@@ -3,8 +3,8 @@
 -Temperature, Pressure and Humidity
 -Search for multiple cities
 
-# ReduxSimpleStarter
-
+## based on ReduxSimpleStarter
+Instructions:
 ```
 	> npm install
 	> npm start
